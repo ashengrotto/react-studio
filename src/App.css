@@ -1,9 +1,52 @@
 /* Add styling for your page here */
 
 .App {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: aliceblue;
+    justify-content: space-evenly;
+}
 
+
+.menu {
+    background-color: aliceblue;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+
+.cartItem {
+    background-color: white;
+    align-items: center;
+    align-self: center;
+    align-content: center;
 }
 
 .BakeryItem {
-  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+}
+
+.Bakery {
+    justify-content: space-around;
+    height: 50%;
+    width: 50%;
+    background-color: white;
+    text-align: center;
+}
+
+.Bakery img {
+    width: 20%;
+    height: 20%;
+    align-self: center;
+    align-items: center;
+    flex-wrap: wrap;
+
 }
